@@ -1,0 +1,17 @@
+{
+    "python.defaultInterpreter": "/Users/sohntsang/Desktop/Uptrendr/Uptrendr/venv/bin/python",
+    "python.pythonPath": "/Users/sohntsang/Desktop/Uptrendr/Uptrendr/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "pylance.include": [
+        "uptrendr"
+    ],
+    "python.analysis.extraPaths": [
+        "/Users/sohntsang/Desktop/Uptrendr/Uptrendr/venv/lib/python3.10/site-packages"
+    ],
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true
+}

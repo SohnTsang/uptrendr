@@ -1,0 +1,84 @@
+{
+  "jobs": [
+    {
+      "name": "scheduler-train-ml-models-daily",
+      "description": "Train sophisticated ML models using historical factors",
+      "schedule": "0 2 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/train_ml_models_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-fetch-market-data-daily",
+      "description": "Fetch comprehensive market data from multiple sources",
+      "schedule": "0 1 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_market_data_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-fetch-sentiment-data-daily",
+      "description": "Analyze news sentiment for market prediction",
+      "schedule": "15 1 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_sentiment_data_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-fetch-macro-data-daily",
+      "description": "Fetch macroeconomic indicators and analysis",
+      "schedule": "30 1 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_macro_data_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-fetch-esg-data-daily",
+      "description": "Fetch ESG scores for sustainable investing",
+      "schedule": "45 1 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_esg_data_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-create-historical-factors-daily",
+      "description": "Create consolidated ML training data",
+      "schedule": "30 0 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/create_historical_factors_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-fetch-japanese-data-daily",
+      "description": "Fetch Japanese market data and news",
+      "schedule": "0 7 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_japanese_data_daily",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "scheduler-generate-market-predictions-daily",
+      "description": "Generate market predictions using trained models",
+      "schedule": "30 2 * * *",
+      "timeZone": "UTC",
+      "httpTarget": {
+        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/generate_market_predictions_daily",
+        "httpMethod": "POST"
+      }
+    }
+  ]
+}

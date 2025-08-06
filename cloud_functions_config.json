@@ -1,0 +1,68 @@
+{
+  "functions": [
+    {
+      "name": "train_ml_models_daily",
+      "schedule": "0 2 * * *",
+      "description": "Train sophisticated ML models using historical factors",
+      "memory": "2GB",
+      "timeout": "540s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "fetch_market_data_daily",
+      "schedule": "0 1 * * *",
+      "description": "Fetch comprehensive market data from multiple sources",
+      "memory": "1GB",
+      "timeout": "300s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "fetch_sentiment_data_daily",
+      "schedule": "15 1 * * *",
+      "description": "Analyze news sentiment for market prediction",
+      "memory": "1GB",
+      "timeout": "300s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "fetch_macro_data_daily",
+      "schedule": "30 1 * * *",
+      "description": "Fetch macroeconomic indicators and analysis",
+      "memory": "512MB",
+      "timeout": "180s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "fetch_esg_data_daily",
+      "schedule": "45 1 * * *",
+      "description": "Fetch ESG scores for sustainable investing",
+      "memory": "512MB",
+      "timeout": "180s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "create_historical_factors_daily",
+      "schedule": "30 0 * * *",
+      "description": "Create consolidated ML training data",
+      "memory": "1GB",
+      "timeout": "300s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "fetch_japanese_data_daily",
+      "schedule": "0 7 * * *",
+      "description": "Fetch Japanese market data and news",
+      "memory": "512MB",
+      "timeout": "240s",
+      "trigger": "schedule"
+    },
+    {
+      "name": "generate_market_predictions_daily",
+      "schedule": "30 2 * * *",
+      "description": "Generate market predictions using trained models",
+      "memory": "1GB",
+      "timeout": "300s",
+      "trigger": "schedule"
+    }
+  ]
+}

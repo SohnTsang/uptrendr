@@ -1,0 +1,22 @@
+{
+    "include": [
+        "uptrendr"
+    ],
+    "extraPaths": [
+        "/Users/sohntsang/Desktop/Uptrendr/Uptrendr/venv/lib/python3.10/site-packages"
+    ],
+    "venvPath": "/Users/sohntsang/Desktop/Uptrendr/Uptrendr",
+    "venv": "venv",
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Darwin",
+    "executionEnvironments": [
+        {
+            "root": "uptrendr",
+            "pythonVersion": "3.10",
+            "pythonPlatform": "Darwin",
+            "extraPaths": [
+                "/Users/sohntsang/Desktop/Uptrendr/Uptrendr/venv/lib/python3.10/site-packages"
+            ]
+        }
+    ]
+}

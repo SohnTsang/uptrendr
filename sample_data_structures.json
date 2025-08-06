@@ -1,0 +1,58 @@
+{
+  "historical_factors": {
+    "symbol": "AAPL",
+    "horizon": "1M",
+    "fundamental": 0.75,
+    "technical": 0.68,
+    "sentiment": 0.72,
+    "macro": 0.55,
+    "esg": 0.63,
+    "actual_return": 0.05,
+    "volatility": 25.5,
+    "confidence": 0.8,
+    "timestamp": "2025-08-04 11:47:32.134231+00:00"
+  },
+  "model_weights": {
+    "horizon": "1M",
+    "fundamental": 0.25,
+    "technical": 0.2,
+    "sentiment": 0.18,
+    "macro": 0.22,
+    "esg": 0.15,
+    "japanese_adjustment": 1.05,
+    "last_updated": "2025-08-04 11:47:32.134429+00:00",
+    "model_performance": {
+      "r2_score": 0.73,
+      "directional_accuracy": 0.68
+    },
+    "training_samples": 500
+  },
+  "market_predictions": {
+    "symbol": "^GSPC",
+    "predictions": {
+      "1W": {
+        "return": 0.02,
+        "confidence": 0.75,
+        "risk_level": "moderate"
+      },
+      "1M": {
+        "return": 0.05,
+        "confidence": 0.68,
+        "risk_level": "moderate"
+      },
+      "6M": {
+        "return": 0.12,
+        "confidence": 0.6,
+        "risk_level": "high"
+      }
+    },
+    "factors": {
+      "fundamental": 0.7,
+      "technical": 0.65,
+      "sentiment": 0.58,
+      "macro": 0.52,
+      "esg": 0.6
+    },
+    "timestamp": "2025-08-04 11:47:32.134432+00:00"
+  }
+}

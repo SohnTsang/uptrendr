@@ -1,0 +1,27 @@
+{
+  "raw_data_collections": [
+    "market_data",
+    "technical_analysis",
+    "fundamental_analysis",
+    "sentiment_analysis",
+    "macro_indicators",
+    "esg_scores",
+    "economic_calendar",
+    "japanese_news",
+    "japanese_economics"
+  ],
+  "ml_collections": [
+    "historical_factors",
+    "model_weights",
+    "market_predictions",
+    "ml_training_status",
+    "forecast_weights"
+  ],
+  "app_collections": [
+    "calendar",
+    "users",
+    "config",
+    "pipeline_executions",
+    "pipeline_monitoring"
+  ]
+}
