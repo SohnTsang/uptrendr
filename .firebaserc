@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "uptrendr-jp"
-  }
+    "default": "uptrendr-jp",
+    "xit": "uptrendr-jp"
+  },
+  "targets": {},
+  "etags": {}
 }

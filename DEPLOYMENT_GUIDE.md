@@ -31,7 +31,7 @@ Your sophisticated ML investment pipeline is **fully implemented** and ready for
 ### ✅ **4. Deployment Configuration**
 - **Cloud Functions**: 8 scheduled functions with proper memory/timeout settings
 - **Scheduling**: Cron-based automated execution
-- **API Endpoints**: Already deployed at `https://uptrendr-api-620356694660.asia-northeast1.run.app`
+- **API Endpoints**: Ready to deploy to `https://uptrendr-jp.asia-northeast1.run.app`
 
 ---
 
@@ -49,11 +49,11 @@ npm install -g firebase-tools
 firebase login
 
 # Set your project
-firebase use uptrendr-api-620356694660
+firebase use uptrendr-jp
 
 # Authenticate with Google Cloud
 gcloud auth login
-gcloud config set project uptrendr-api-620356694660
+gcloud config set project uptrendr-jp
 gcloud auth application-default login
 ```
 
@@ -115,16 +115,16 @@ Test all endpoints to ensure everything works:
 
 ```bash
 # Test health check
-curl https://uptrendr-api-620356694660.asia-northeast1.run.app/
+curl https://uptrendr-jp.asia-northeast1.run.app/
 
 # Test market data
-curl https://uptrendr-api-620356694660.asia-northeast1.run.app/market-data
+curl https://uptrendr-jp.asia-northeast1.run.app/market-data
 
 # Test Japanese APIs
-curl https://uptrendr-api-620356694660.asia-northeast1.run.app/test-japanese-apis
+curl https://uptrendr-jp.asia-northeast1.run.app/test-japanese-apis
 
 # Test ML prediction (after training runs)
-curl -X POST https://uptrendr-api-620356694660.asia-northeast1.run.app/predict \
+curl -X POST https://uptrendr-jp.asia-northeast1.run.app/predict \
   -H "Content-Type: application/json" \
   -d '{"symbol": "AAPL", "horizon": "1M"}'
 ```

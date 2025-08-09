@@ -11,7 +11,7 @@ Instructions:
 3. Initialize Firestore collections
 4. Schedule the ML training and data fetching
 
-Your ML API is deployed at: https://uptrendr-api-620356694660.asia-northeast1.run.app
+Your ML API is deployed at: https://uptrendr-jp-626448778297.asia-northeast1.run.app
 """
 
 import json

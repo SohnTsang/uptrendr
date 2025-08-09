@@ -9,7 +9,7 @@ echo "=================================="
 echo ""
 
 # Set project variables
-PROJECT_ID="uptrendr-api-620356694660"
+PROJECT_ID="uptrendr-jp"
 REGION="asia-northeast1"
 
 echo "📊 Project: $PROJECT_ID"
@@ -118,7 +118,7 @@ echo ""
 echo "4️⃣ TESTING ML PIPELINE..."
 echo "Testing your deployed ML API endpoints..."
 
-API_BASE="https://uptrendr-api-620356694660.asia-northeast1.run.app"
+API_BASE="https://uptrendr-jp-626448778297.asia-northeast1.run.app"
 
 echo "Testing health check..."
 curl -s "$API_BASE/" | jq . || echo "API response received"

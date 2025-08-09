@@ -6,7 +6,7 @@
       "schedule": "0 2 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/train_ml_models_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/train_ml_models_daily",
         "httpMethod": "POST"
       }
     },
@@ -16,7 +16,7 @@
       "schedule": "0 1 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_market_data_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/fetch_market_data_daily",
         "httpMethod": "POST"
       }
     },
@@ -26,7 +26,7 @@
       "schedule": "15 1 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_sentiment_data_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/fetch_sentiment_data_daily",
         "httpMethod": "POST"
       }
     },
@@ -36,7 +36,7 @@
       "schedule": "30 1 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_macro_data_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/fetch_macro_data_daily",
         "httpMethod": "POST"
       }
     },
@@ -46,7 +46,7 @@
       "schedule": "45 1 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_esg_data_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/fetch_esg_data_daily",
         "httpMethod": "POST"
       }
     },
@@ -56,7 +56,7 @@
       "schedule": "30 0 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/create_historical_factors_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/create_historical_factors_daily",
         "httpMethod": "POST"
       }
     },
@@ -66,7 +66,7 @@
       "schedule": "0 7 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/fetch_japanese_data_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/fetch_japanese_data_daily",
         "httpMethod": "POST"
       }
     },
@@ -76,7 +76,7 @@
       "schedule": "30 2 * * *",
       "timeZone": "UTC",
       "httpTarget": {
-        "uri": "https://asia-northeast1-uptrendr-api-620356694660.cloudfunctions.net/generate_market_predictions_daily",
+        "uri": "https://uptrendr-api-626448778297.asia-northeast1.run.app/generate_market_predictions_daily",
         "httpMethod": "POST"
       }
     }
